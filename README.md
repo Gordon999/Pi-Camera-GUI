@@ -8,4 +8,4 @@ With a Pi HQ Camera will allow exposures upto 239 seconds.
 
 ## Screenshot
 
-![screenshot](scr_001.jpg)
+![screenshot](scr001.jpg)
