@@ -6,6 +6,8 @@ Shows a reduced preview but saves stills at camera full resolution, and videos a
 
 With a Pi HQ Camera will allow exposures upto 239 seconds.
 
+Click mouse on the left of a button to decrease, right to increase
+
 ## Screenshot
 
 ![screenshot](scr001.jpg)
