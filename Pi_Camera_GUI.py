@@ -439,7 +439,7 @@ while True:
                    button(0,0,0)
                    text(0,1,0,1,"CAPTURE",ft,7)
                    text(0,1,1,1,"Still    -  Video",ft,7)
-                   text(0,6,2,1,"Waiting for preview ...",fv* 2,1)
+                   
                                      
                elif g == 1:
                    button(0,0,1)
@@ -464,7 +464,7 @@ while True:
                    button(0,0,0)
                    text(0,1,0,1,"CAPTURE",ft,7)
                    text(0,1,1,1,"Still    -  Video",ft,7)
-                   text(0,6,2,1,"Waiting for preview ...",fv* 2,1)
+                   
 
                elif g == 21 :
                    fps +=1
@@ -508,6 +508,7 @@ while True:
            with open('PiCconfig5.txt', 'w') as f:
                for item in config:
                    f.write("%s\n" % item)
+           text(0,6,2,1,"Waiting for preview ...",fv* 2,1)
            preview()
 
 
