@@ -10,6 +10,8 @@ Click mouse on the left of a button to decrease, right to increase
 
 Always use the EXIT button to EXIT
 
+Requires opencv installed
+
 ## Screenshot
 
 ![screenshot](screen001.jpg)
