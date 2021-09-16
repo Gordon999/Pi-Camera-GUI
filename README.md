@@ -10,7 +10,7 @@ Click mouse on the left of a button to decrease, right to increase
 
 Always use the EXIT button to EXIT
 
-Requires opencv installed
+Requires opencv installed  sudo apt-get install python3-opencv
 
 ## Screenshot
 
