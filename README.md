@@ -6,7 +6,7 @@ Shows a reduced preview but saves stills at camera full resolution, and videos a
 
 With a Pi HQ Camera will allow exposures upto 239 seconds.
 
-Click mouse on the left of a button to decrease, right to increase
+Click mouse on the left of a button to decrease, right to increase or use the appropriate slider
 
 Always use the EXIT button to EXIT
 
