@@ -33,6 +33,8 @@ frame       = 0       # set to 1 for no frame
 zx          = int(cwidth/2)
 zy          = int(cheight/2)
 zoom = 0
+igw  = 2592
+igh  = 1944
 
 pic_dir     = "/home/pi/Pictures/"
 vid_dir     = "/home/pi/Videos/"
