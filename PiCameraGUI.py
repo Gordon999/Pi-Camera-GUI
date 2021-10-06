@@ -198,7 +198,7 @@ def preview():
     if modes[mode] != 'off':
         rpistr += " -t 0 -tl 0 -ex " + modes[mode]
     else:
-        rpistr += " -t 0 -tl 0 -ss " + str(speed2)
+        rpistr += " -t 0 -tl 0 -ex off -ss " + str(speed2)
     if ISO > 0:
         rpistr += " -ISO " + str(ISO)
     if ev != 0:
@@ -796,7 +796,7 @@ while True:
                        if modes[mode] != 'off':
                            rpistr += " -t 800 -ex " + modes[mode]
                        else:
-                           rpistr += " -t 500 -ss " + str(speed)
+                           rpistr += " -t 500 -ex off -ss " + str(speed)
                        if ISO > 0 and modes[mode] != 'off':
                           rpistr += " -ISO " + str(ISO)
                        if ev != 0 and modes[mode] != 'off':
