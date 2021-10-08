@@ -103,7 +103,7 @@ if (shutter * 1000000) - int(shutter * 1000000) > 0.5:
     sspeed +=1
 
 parameters = [mode,0,len(modes)-1,speed,0,len(speeds),ISO,0,800,brightness,0,100,contrast,-100,100,ev,-12,12,blue,0.1,8,red,0.1,8,extn,0,3]
-vparas =     [vlen,1,999,fps,1,40,vformat,0,len(vwidths)-1,0,0,0,a_video,0,1,0,0,0,0,0,0,tduration,1,9999,tinterval,1,999,tshots,1,99]
+vparas =     [vlen,1,999,fps,2,40,vformat,0,len(vwidths)-1,0,0,0,a_video,0,1,0,0,0,0,0,0,tduration,1,9999,tinterval,1,999,tshots,1,99]
 pygame.init()
 if frame == 0:
    windowSurfaceObj = pygame.display.set_mode((cwidth + (bw*2),cheight ), 0, 24)
@@ -668,6 +668,8 @@ while True:
             elif g == 11  or g == 10:
                    if mousey < (y*bh) + 10:
                        fps = int(((mousex-cwidth-bw) / bw) * (vparas[((y-1)*3) + 2] - vparas[((y-1)*3) + 1]))
+                       fps = min(fps,vfps)
+                       fps = max(fps,vparas[4])
                    elif mousey < (y*bh) + (bh/1.2):
                        if mousex > cwidth + bw + (bw/2):
                            fps +=1
