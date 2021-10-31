@@ -14,7 +14,7 @@ Requires opencv installed  sudo apt-get install python3-opencv
 
 ## Screenshot
 
-![screenshot](screen002.jpg)
+![screenshot](screenshot.jpg)
 
 ## Zoomed
 
