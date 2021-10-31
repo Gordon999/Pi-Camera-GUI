@@ -2,7 +2,9 @@
 
 Script to allow control of a Pi Camera. Will work with all models, v1, v2 & HQ
 
-Shows a reduced preview but saves stills at camera full resolution, and videos at user set rsolution.
+Shows a reduced preview but saves stills at camera full resolution *, and videos at user set resolution *.
+
+* Will save images and videos at preview size if zoom or focus button activated
 
 With a Pi HQ Camera will allow exposures upto 239 seconds.
 
