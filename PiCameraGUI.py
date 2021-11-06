@@ -12,8 +12,8 @@ import cv2
 
 # set displayed preview image size (must be less than screen size to allow for menu!!)
 # recommended 640x480, 800x600, 1280x960
-preview_width  = 800 
-preview_height = 600
+preview_width  = 640 
+preview_height = 480
 
 # set default still_limits
 mode        = 1       # set camera mode ['off','auto','night' etc] 
@@ -277,7 +277,7 @@ def preview():
         zxo = ((zx -((preview_width/2) / (igw/preview_width)))/preview_width)
         zyo = ((zy -((preview_height/2) / (igh/preview_height)))/preview_height)
         rpistr += " -roi " + str(zxo) + "," + str(zyo) + "," + str(preview_width/igw) + "," + str(preview_height/igh)
-    print (rpistr)
+    #print (rpistr)
     p = subprocess.Popen(rpistr, shell=True, preexec_fn=os.setsid)
 
 # draw buttons
