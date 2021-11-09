@@ -8,7 +8,8 @@ import subprocess
 import signal
 import cv2
 
-# version 16
+# version 17
+
 
 # set displayed preview image size (must be less than screen size to allow for menu!!)
 # recommended 640x480, 800x600, 1280x960
@@ -53,7 +54,7 @@ igw         = 2592
 igh         = 1944
 zwidth      = igw 
 zheight     = igh
-
+tduration   = tinterval * tshots
 # set button sizes
 bw = int(preview_width/8)
 bh = int(preview_height/13)
