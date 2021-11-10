@@ -14,6 +14,9 @@ Always use the EXIT button to EXIT
 
 Requires opencv installed  sudo apt-get install python3-opencv
 
+
+NOTE: Will NOT work with RaspiOS based on BULLSEYE... new version in development...
+
 ## Screenshot
 
 ![screenshot](screenshot.jpg)
