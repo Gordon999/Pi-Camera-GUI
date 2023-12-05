@@ -15,7 +15,7 @@ Always use the EXIT button to EXIT
 Requires opencv installed  sudo apt-get install python3-opencv
 
 
-NOTE: Will NOT work with RaspiOS based on BULLSEYE... new version at https://github.com/Gordon999/Pi_LIbCamera_GUI
+NOTE: Will NOT work with RaspiOS based on BULLSEYE... new version at https://github.com/Gordon999/RPiCamGUI
 
 ## Screenshot
 
