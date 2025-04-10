@@ -1,5 +1,7 @@
 # Pi-Camera-GUI
 
+# NOTE: Will NOT work with RaspiOS based on BULLSEYE or BOOKWORM... new version at https://github.com/Gordon999/RPiCamGUI
+
 Script to allow control of a Pi Camera. Will work with all models, v1, v2 & HQ
 
 Shows a reduced preview but saves stills at camera full resolution *, and videos at user set resolution *.
@@ -13,9 +15,6 @@ Click mouse on the left of a button to decrease, right to increase or use the ap
 Always use the EXIT button to EXIT
 
 Requires opencv installed  sudo apt-get install python3-opencv
-
-
-# NOTE: Will NOT work with RaspiOS based on BULLSEYE or BOOKWORM... new version at https://github.com/Gordon999/RPiCamGUI
 
 ## Screenshot
 
