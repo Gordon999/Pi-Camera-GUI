@@ -1,6 +1,6 @@
 # Pi-Camera-GUI
 
-# NOTE: Will NOT work with RaspiOS based on BULLSEYE or BOOKWORM... new version at https://github.com/Gordon999/RPiCamGUI
+# NOTE: Will NOT work with RaspiOS based on BULLSEYE, BOOKWORM or TRIXIE... new version at https://github.com/Gordon999/RPiCamGUI
 
 Script to allow control of a Pi Camera. Will work with all models, v1, v2 & HQ
 
